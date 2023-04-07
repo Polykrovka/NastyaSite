@@ -1,0 +1,15 @@
+.orange-button {
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  vertical-align: middle;
+
+  font-weight: 44px;
+  background-color: orange;
+  border-radius: 5px;
+  border: solid black 1px;
+  margin-top: 20px;
+}
+.orange-button:hover {
+  background-color: rgb(219, 108, 23);
+}
