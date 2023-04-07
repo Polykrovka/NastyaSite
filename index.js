@@ -3,7 +3,7 @@ const allMats = '6ля, 6лядь, 6лять, b3ъeб, пиZд, cock, cunt, e6a�
 const arrMats = allMats.split(', ');
 const audio = new Audio();
 audio.preload = 'auto';
-audio.src = '/mp3/ublyudok-mat-tvoyu-idi-syuda.mp3';
+audio.src = '../mp3/ublyudok-mat-tvoyu-idi-syuda.mp3';
 
 const orangeButton = document.querySelector('.orange-button');
 orangeButton.addEventListener('click', addOrangeButton, { once: true });
