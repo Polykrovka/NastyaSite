@@ -101,3 +101,26 @@ html {
 .gallery li {
   display: inline-block;
 }
+
+@media screen and (max-width: 560px) {
+  body {
+    background-color: lightblue  !important;
+  }
+
+  .gallery {
+    max-width: 200px;
+  }
+  
+  .gallery ul {
+    height: 200px;
+  }
+
+  .carousel img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .carousel {
+    max-width: 200px;
+  }
+}

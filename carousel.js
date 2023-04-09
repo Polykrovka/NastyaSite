@@ -1,4 +1,6 @@
-let i = 1;
+
+    console.log(window.innerWidth);
+    let i = 1;
     for(let li of carousel.querySelectorAll('li')) {
       li.style.position = 'relative';
       li.insertAdjacentHTML('beforeend', `<span style="position:absolute;left:0;top:0">${i}</span>`);
@@ -6,7 +8,7 @@ let i = 1;
     }
 
     /* конфигурация */
-    let width = 400; // ширина картинки
+    let width = (window.innerWidth > 560)? 400 : 200; // ширина картинки
     let count = 1; // видимое количество изображений
 
     let list = carousel.querySelector('ul');

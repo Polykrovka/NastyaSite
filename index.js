@@ -21,7 +21,7 @@ orangeButton.addEventListener('click', () => audio2.play(), { once: true });
 orangeButton.addEventListener('click', () => audio3.play(), { once: true });
 const header = document.querySelector('header');
 let counter = 0;
-let padding = 10;console.log(arrMats.length);
+let padding = 10;
 
 function addOrangeButton(e) {
   const moreButtons = document.createElement('div');
