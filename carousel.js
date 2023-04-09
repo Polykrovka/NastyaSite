@@ -6,7 +6,7 @@ let i = 1;
     }
 
     /* конфигурация */
-    let width = 500; // ширина картинки
+    let width = 400; // ширина картинки
     let count = 1; // видимое количество изображений
 
     let list = carousel.querySelector('ul');
