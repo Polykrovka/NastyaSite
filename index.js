@@ -23,14 +23,16 @@ let padding = 10;console.log(arrMats.length);
 function addOrangeButton(e) {
   const moreButtons = document.createElement('div');
   const color = '#' + (Math.random().toString(16) + '000000').substring(2,8).toUpperCase();
-  moreButtons.classList.add('orange-button')
   const textButton = document.createTextNode(`${arrMats[counter]}`);
+
+  moreButtons.classList.add('orange-button')
   moreButtons.appendChild(textButton);
   header.appendChild(moreButtons);
   moreButtons.addEventListener('click', addOrangeButton, { once: true });
   counter++;
-  console.log(moreButtons.style.paddingRight);
   moreButtons.style.paddingRight = `${padding}px`; 
   moreButtons.style.backgroundColor = color;
   padding += 10;
+
+  moreButtons.scrollIntoView();
 }
