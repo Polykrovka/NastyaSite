@@ -1,8 +1,8 @@
 .orange-button {
   height: 40px;
-  width: 200px;
+  width: 100px;
   text-align: center;
-  vertical-align: middle;
+
 
   font-weight: 44px;
   background-color: orange;
@@ -10,7 +10,26 @@
   border: solid black 1px;
   margin-top: 20px;
 }
-.orange-button:hover {
+.orange-button_main {
+  display: flex;
+  height: 100px;
+  width: 300px;
+  text-align: center;
+
+
+  font-weight: 44px;
+  background-color: orange;
+  border-radius: 5px;
+  border: solid black 1px;
+  margin-top: 20px;
+
+}
+.ubludok {
+  height: 80px;
+  width: 80px;
+  padding: 10px;
+}
+.orange-button_main:hover {
   background-color: rgb(219, 108, 23);
 }
 

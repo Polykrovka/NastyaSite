@@ -14,7 +14,7 @@ audio3.src = '../mp3/ublyudok-mat-tvoyu-idi-syuda.mp3';
 const firstButtonText = 'бля';
 let isFirstButton = true;
 
-const orangeButton = document.querySelector('.orange-button');
+const orangeButton = document.querySelector('.orange-button_main');
 orangeButton.addEventListener('click', addOrangeButton, { once: true });
 // orangeButton.addEventListener('click', () => audio.play(), { once: true });
 orangeButton.addEventListener('click', () => audio2.play(), { once: true });
